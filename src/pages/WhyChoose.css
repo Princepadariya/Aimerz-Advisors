@@ -1,13 +1,13 @@
 .why-choose {
   padding:  0;
-  background-color: #FFFFFF;
+  background-color: #FAFAFA;
 }
 
 .competitive-advantages {
   padding: 80px 0;
   padding-left: 105px;
   padding-right: 105px;
-  margin-top: -5.5rem;
+  margin-top: -2.5rem;
    
 }
 
@@ -202,6 +202,7 @@
   margin-top: -1rem;
   padding-left: 105px;
   padding-right: 105px;
+  margin-bottom: 2rem;
 }
 .testimonials-header {
   text-align: center;
@@ -271,6 +272,15 @@
   font-size: 1rem;
 }
 
+/* CTA Banner */
+.cta-banner-4 {
+  position: relative;
+  padding: 120px 0 100px 0;
+  background: #FFFFFF;
+  overflow: hidden;
+  margin-top: -2rem;
+}
+
 @media (max-width: 1400px) {
   .testimonials-grid {
     grid-template-columns: repeat(2, minmax(420px, 1fr));
@@ -335,12 +345,11 @@
   }
 
    /* CTA Banner */
-.cta-banner {
+.cta-banner-2 {
   position: relative;
   padding: 120px 0 100px 0;
-  background: #FAFAFA;
+  background: #FFFFFF;
   overflow: hidden;
-  margin-top: -2rem;
 }
 
 .cta-content {
@@ -390,22 +399,23 @@
   color: #FFFFFF;
 }
 
-.why-choose-button {
+.why-choose-button{
   font-family: 'Inter', sans-serif;
   background: #FAFAFA;
   color: #333;
-  padding: 7px 14px;
+  padding: 14px 35px;
   font-weight: 500;
   border: none;
-  font-size: 0.5rem;
+  border-radius: 60px;
+  font-size: 1.2rem;
   position: relative;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  margin-top: -rem;
   align-self: flex-start;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-top: 10px;
 }
 
 .why-choose-button::before {
@@ -424,28 +434,6 @@
   -webkit-mask-composite: xor;
 }
 
-.why-choose-button:hover {
-  color: #FAFAFA;
-  background: linear-gradient(90deg, #A968FF 0%, #FFFFFF 100%);
-}
-
-.why-choose-button:hover::before {
-  background: linear-gradient(90deg, #A968FF 0%, #FFFFFF 100%);
-}
-
-.button-arrow-1 {
-  width: 8px;
-  height: 8px;
-}
-
-.button-arrow {
-  transition: transform 0.3s ease;
-}
-
-.why-choose-button:hover .button-arrow {
-  transform: translateX(2px);
-}
-
   /* Keep the testimonials title on one line on mobile */
   .testimonials-title {
    font-size: 1.1rem; 
@@ -461,12 +449,12 @@
     margin-bottom: 2rem !important;
   }
 
-  .competitive-advantages { text-align: center; padding: 0 16px; }
+  .competitive-advantages { text-align: center; padding: 0 16px; margin-top: -5rem; }
 
 
   .advantages-title {
     font-size: 1.4rem;
-    margin-top: 3rem;
+    margin-top: 8rem;
   }
   
   .advantages-subtitle {

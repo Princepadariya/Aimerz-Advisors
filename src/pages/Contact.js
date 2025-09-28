@@ -245,7 +245,6 @@ const Contact = () => {
 
           <div className="footer-bottom">
             <div className="footer-copy">Copyright 2025 – Aimerz Advisors All rights reserved</div>
-            <div className="footer-terms">Terms & Conditions</div>
             <div className="footer-powered">Powered by <a href="https://www.codelix.in/" target="_blank" rel="noopener noreferrer">Codelix IT Solutions Pvt. Ltd.</a></div>
           </div>
         </div>
